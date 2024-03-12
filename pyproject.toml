@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "parsing2"
+version = "0.1.0"
+description = ""
+authors = ["Michael Kuian <michaelkuian@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.11.1"
+itemadapter = "^0.8.0"
+item = "^0.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
